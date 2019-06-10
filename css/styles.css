@@ -1,10 +1,14 @@
-import url("fonts.css");
+@import url("fonts.css");
 @import url("bootstrap.css");
 
-  {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.ptag {
+  display: none;
 }
 
 #first {
@@ -20,7 +24,6 @@ import url("fonts.css");
 }
 
 h6 {
-    {
     height: 1vh;
   }
 
@@ -103,9 +106,9 @@ h6 {
   #contact {
     padding-top: 100px;
     margin-bottom: 50px;
-    background-image: url('../images/backgrounds/c_image.jpg');
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
-    background-position: cover;
+    background-position: center;
     width: 100%;
     max-width: 100%;
     margin-top: 10%;
