@@ -1,2 +1,18 @@
 import url("fonts.css");
 @import url("bootstrap.css");
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+#first {
+   padding-top: 14%;
+   margin-bottom: 9%;
+}
+#hed {
+   background-image: url('../images/backgrounds/h_img.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+h6 {
