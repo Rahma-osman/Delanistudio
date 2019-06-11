@@ -1,181 +1,146 @@
 @import url("fonts.css");
 @import url("bootstrap.css");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-.ptag {
-  display: none;
-}
-
 #first {
-  padding-top: 14%;
-  margin-bottom: 9%;
+    padding-top: 14%;
+    margin-bottom: 9%;
 }
-
 #hed {
-  background-image: url('../images/backgrounds/h_img.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
-
 h6 {
     height: 1vh;
-  }
-
-  #about {
+}
+#about {
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-
-  .resize {
+}
+.resize {
     font-size: cal(1vh + 1vw + .5vmin);
-  }
-
-  #about,
-  #service,
-  #pple,
-  .specific,
-  #contact,
-  .footer p {
+}
+#about,
+#service,
+#pple,
+.specific,
+#contact,
+.footer p {
     font-family: 'Merienda', cursive;
-  }
-
-  .col-md-12 {
+}
+.col-md-12 {
     width: 100%;
     color: #fff;
     font-family: 'Akronim', cursive;
     font-size: calc(1vw + 1vh + .5vmin);
     font-size: 1.1em;
-  }
-
-  h1 {
+}
+h1 {
     font-family: 'Akronim', cursive;
-  }
-
-  #service {
+}
+#service {
     background-image: url('../images/backgrounds/s_image.jpg');
     color: #fff;
     margin-bottom: 50px;
     background-position: center;
     padding-top: 120px;
     padding-bottom: 80px;
-  }
-
-  .card-deck {
+}
+.card-deck {
     padding: 1% 4%;
-  }
-
-  .specific {
+}
+.specific {
     margin-bottom: 4%;
-  }
-
-  .image1 {
+}
+.image1 {
     padding-top: 9%;
     margin-bottom: 3%;
-  }
-
-  .image2 {
+}
+.image2 {
     margin-top: 20%;
     padding: 35px 0;
-  }
-
-  .sermain {
+}
+.sermain {
     margin-top: 15%;
-  }
-
-  .hide {
+}
+.hide {
     display: none;
-  }
-
-  .form-cont input {
+}
+.form-cont input {
     width: 49%;
     background: transparent;
-  }
-
-  .form-cont textarea {
+}
+.form-cont textarea {
     margin-top: 10px;
     width: 100%;
     background: transparent;
-  }
-
-  #contact {
+}
+#contact {
     padding-top: 100px;
     margin-bottom: 50px;
-    background-image: url("../images/backgrounds/c_image.jpg");
+    background-image: url('../images/backgrounds/c_image.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     width: 100%;
     max-width: 100%;
     margin-top: 10%;
-  }
-
-  .footer {
+}
+.footer {
     margin-top: 30px;
-  }
-
-  .form-cont {
+}
+.form-cont {
     text-align: center;
     position: relative;
     width: 700px;
     max-width: 100%;
     left: 50%;
     transform: translate(-50%);
-  }
-
-  ::placeholder,
-  .con {
+}
+::placeholder,
+.con {
     color: #fff;
-  }
-
-  ::placeholder {
+}
+::placeholder{
     font-size: 10px;
-  }
-
-  .con {
+}
+.con {
     padding-bottom: 30px;
-  }
-
-  .what {
+}
+.what {
     margin-bottom: 30px;
-  }
-
-  #meso {
+}
+#meso {
     background-color: transparent;
-  }
-
-  .social img {
+}
+.social img {
     border-radius: 50%;
     transition: 0.2s ease-out;
-  }
-
-  .social img:hover {
+}
+.social img:hover {
     box-shadow: 0 0 20px rgb(0, 0, 0);
     margin: -3px;
     padding: 3px;
     background: yellowgreen;
-  }
-
-  #portfolio img {
+}
+#portfolio img {
     width: 100%;
-  }
-
-  .card {
+}
+.card {
     margin: 10px 0;
     position: relative;
     overflow: hidden;
-  }
-
-  .card:hover img {
+}
+.card:hover img {
     transform: scale(1.2);
     transition: all 0.3s ease;
-  }
-
-  .card-1 {
+}
+.card-1 {
     position: absolute;
     width: 100%;
     min-height: 100%;
@@ -183,9 +148,8 @@ h6 {
     cursor: pointer;
     display: none;
     transition: all 0.5s ease;
-  }
-
-  .ptag {
+}
+.ptag {
     padding: 5% 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.301);
@@ -199,21 +163,22 @@ h6 {
     overflow: hidden;
     letter-spacing: 2px;
     font-family: 'Merienda', cursive;
-  }
-
-  @media screen and (max-width:450px) {
+}
+@media screen and (max-width:450px) {
     .form-cont input {
-      width: 100%;
-      margin-top: 10px;
+        width: 100%;
+        margin-top: 10px;
     }
-
-    body {
-      overflow-x: hidden;
+    body{
+        overflow-x: hidden;
+    }@media only screen and (min-device-width : 500px){
+    .someClass: {
+        color: blue;
     }
-  }
-
-  @media screen and (max-width:1024px) {
+}
+}
+@media screen and (max-width:500px) {
     * {
-      font-size: calc(1vw + 1vh + .5vmin);
+        font-size: calc(1vw + 1vh + .5vmin);
     }
-  }
+}
